@@ -1,0 +1,168 @@
+{
+  "landing": {
+    "firstName": "Jared  ",
+    "lastName": "Hasson",
+    "phoneNumber": "385-439-1231   ",
+    "bio1": "I'm a software engineer excited about back-end services, object-oriented programming, cross-platform frameworks and distributed systems.\n I currently work at Simplifile as a back-end developer, study CS with an emphasis in Software Engineering at Brigham Young University, and contribute to open source projects when I feel like coding in my spare time.",
+    "bio2": "I currently work at Simplifile as a back-end developer, study CS with an emphasis in Software Engineering at Brigham Young University, and I build applications in Flutter and contribute to open source projects when I feel like coding in my spare time.",
+    "bio3": "Other than that, I love to follow the latest news in big tech, read, play piano, am an active member of my local religious group, and I enjoy spending time cooking and watching Netflix with my wife.",
+    "email": "jaredezzethasson@gmail.com",
+    "linkedin": "https://linkedin.com/in/jaredhasson",
+    "github": "https://github.com/JaredEzz",
+    "pluralsight": "https://app.pluralsight.com/profile/jared-hasson",
+    "facebook": "https://www.facebook.com/jaredezzethasson",
+    "twitter": "https://twitter.com/JaredEzz"
+  },
+  "experience": [
+    {
+      "position": "Software Engineer Intern",
+      "organization": "Simplifile",
+      "aboutWork": "Full-time member of team overseeing our Lender product. Build & maintain business logic, databases, APIs and other back-end components.",
+      "fromDate": "January 2019",
+      "toDate": "Present",
+      "tech": [
+        "Java",
+        "Angular",
+        "mongoDB",
+        "MySQL",
+        "GitLab",
+        "Jira"
+      ]
+    },
+    {
+      "position": "Software Business Analyst",
+      "organization": "Simplifile",
+      "aboutWork": "Assisted project managers with analyzing performance reports, responded to customer feature requests and bug reports, worked with development team to define enhancements.",
+      "fromDate": "March 2018",
+      "toDate": "January 2019",
+      "tech": [
+        "Microsoft Excel",
+        "Jira",
+        "Confluence",
+        "Aha! Project Management"
+      ]
+    },
+    {
+      "position": "Full-time Missionary",
+      "organization": "The Church of Jesus Christ of Latter-day Saints",
+      "aboutWork": "My time as a missionary was spent serving individuals and families, teaching them about the restored gospel of Jesus Christ, and helping them make changes to improve their quality of life.",
+      "fromDate": "March 2016",
+      "toDate": "March 2018",
+      "tech": [
+      ]
+    },
+    {
+      "position": "Client Onboarding Specialist",
+      "organization": "Simplifile",
+      "aboutWork": "Onboarded new customers for new Collaboration & Post Closing product and provided customer support.",
+      "fromDate": "May 2015",
+      "toDate": "February 2016",
+      "tech": [
+        "Microsoft Excel",
+        "Jira"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "university": "Brigham Young University ",
+      "degree": "Bachelor of Computer Science, Emphasis in Software Engineering",
+      "fromDate": "June 2015",
+      "toDate": "Present"
+    },
+    {
+      "university": "Utah Valley University",
+      "degree": "Associate of Science",
+      "fromDate": "August 2013",
+      "toDate": "June 2015"
+    }
+  ],
+  "skills": [
+    {
+      "name": "java.png"
+    },
+    {
+      "name": "git.png"
+    },
+    {
+      "name": "cpp.png"
+    },
+    {
+      "name": "js.png"
+    },
+    {
+      "name": "android.png"
+    },
+    {
+      "name": "angular.png"
+    },
+    {
+      "name": "react.png"
+    },
+    {
+      "name": "css.png"
+    },
+    {
+      "name": "es6.png"
+    },
+    {
+      "name": "html5.png"
+    },
+    {
+      "name": "java_programming_paradigms.png"
+    },
+    {
+      "name": "npm.png"
+    },
+    {
+      "name": "rxjs.png"
+    },
+    {
+      "name": "typescript.png"
+    }
+  ],
+  "interests": {
+    "paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Utah, I enjoy hiking, camping, and swimming.",
+    "paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+  },
+  "projects": [
+    {
+      "name": "Touchbar Information",
+      "description": "My first React project, focused on simple, streamlined web design.",
+      "link": "https://jaredezz.github.io/touchbar/",
+      "logo": "",
+      "frameworks": [
+        "React"
+      ]
+    },
+    {
+      "name": "Get2gether",
+      "description": "My first Flutter project, focused on a clean, intuitive mobile design.",
+      "link": "https://jaredezz.github.io/get2gether/",
+      "logo": "",
+      "frameworks": [
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Let's Go! Companion App",
+      "description": "A video game companion app to help players track in-game progress.\n",
+      "link": "https://jaredezz.github.io/letsgo/",
+      "logo": "",
+      "frameworks": [
+        "Flutter Web",
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Ripceipt",
+      "description": "An application to organize receipts sent by NFC from Ripceipt printer software.",
+      "link": "https://ripceipt.github.io/survey",
+      "logo": "../Assets/projects/ripceipt.png",
+      "frameworks": [
+        "Flutter",
+        "Java"
+      ]
+    }
+  ]
+}
