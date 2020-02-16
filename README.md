@@ -1,1 +1,0 @@
-# TEDxPGblvd.github.io
