@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adf108e619fbe197b3fd62c18ace2330",
+    "revision": "0cd8db67a138dd24cb4468ba03e49361",
     "url": "/index.html"
   },
   {
-    "revision": "0f25b586067932392747",
+    "revision": "66c230a2862459d00a59",
     "url": "/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "47614ba8707c98e8c25c",
-    "url": "/static/js/2.84477392.chunk.js"
+    "revision": "275c2b5750a608d07714",
+    "url": "/static/js/2.a790acd6.chunk.js"
   },
   {
-    "revision": "0f25b586067932392747",
-    "url": "/static/js/main.cdf24986.chunk.js"
+    "revision": "66c230a2862459d00a59",
+    "url": "/static/js/main.60eb5dae.chunk.js"
   },
   {
     "revision": "2edcc85d0de6a734892e",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f5d81aae7734d3f3fd89c7ba9785c8ee",
     "url": "/static/media/PS_logo_F-04.f5d81aae.png"
+  },
+  {
+    "revision": "f927efa1ada05ed93cc9cf630ee15b6d",
+    "url": "/static/media/TED Youth Logo.f927efa1.jpg"
+  },
+  {
+    "revision": "88d8c8e28a11860c798bad7486eaafc5",
+    "url": "/static/media/TEDx_logo_side.88d8c8e2.jpg"
   },
   {
     "revision": "9d80b4b623787cd0f446dc0da1121795",
@@ -102,10 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fea31ccccaa8a14253882cc7f81d5e9c",
     "url": "/static/media/npm.fea31ccc.png"
-  },
-  {
-    "revision": "fabd127833c61c41cec25d43727d0210",
-    "url": "/static/media/profile.fabd1278.png"
   },
   {
     "revision": "0f1ce6460c6707d0406c6266341fcccc",
