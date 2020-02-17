@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.cdf24986.chunk.js",
-    "main.js.map": "/static/js/main.cdf24986.chunk.js.map",
+    "main.js": "/static/js/main.60eb5dae.chunk.js",
+    "main.js.map": "/static/js/main.60eb5dae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9e50994.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9e50994.js.map",
-    "static/js/2.84477392.chunk.js": "/static/js/2.84477392.chunk.js",
-    "static/js/2.84477392.chunk.js.map": "/static/js/2.84477392.chunk.js.map",
+    "static/js/2.a790acd6.chunk.js": "/static/js/2.a790acd6.chunk.js",
+    "static/js/2.a790acd6.chunk.js.map": "/static/js/2.a790acd6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fbd52eeafd40e41fe95553b646cfe1b1.js": "/precache-manifest.fbd52eeafd40e41fe95553b646cfe1b1.js",
+    "precache-manifest.34af23e4258b0c8b950e648910e04757.js": "/precache-manifest.34af23e4258b0c8b950e648910e04757.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
     "static/media/AngularJS-Shield.svg": "/static/media/AngularJS-Shield.4c732369.svg",
     "static/media/PS_logo_F-04.png": "/static/media/PS_logo_F-04.f5d81aae.png",
+    "static/media/TED Youth Logo.jpg": "/static/media/TED Youth Logo.f927efa1.jpg",
+    "static/media/TEDx_logo_side.jpg": "/static/media/TEDx_logo_side.88d8c8e2.jpg",
     "static/media/aha-678x381.png": "/static/media/aha-678x381.9d80b4b6.png",
     "static/media/android.png": "/static/media/android.4160c81c.png",
     "static/media/angular.png": "/static/media/angular.62c02f3d.png",
@@ -31,15 +33,14 @@
     "static/media/mdb.png": "/static/media/mdb.ba0f6e61.png",
     "static/media/mysql.png": "/static/media/mysql.af0dad0a.png",
     "static/media/npm.png": "/static/media/npm.fea31ccc.png",
-    "static/media/profile.png": "/static/media/profile.fabd1278.png",
     "static/media/react.png": "/static/media/react.c6e2daf4.png",
     "static/media/ripceipt.png": "/static/media/ripceipt.6fbfa3c9.png",
     "static/media/ts.png": "/static/media/ts.2c4e1a56.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9e50994.js",
-    "static/js/2.84477392.chunk.js",
+    "static/js/2.a790acd6.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.cdf24986.chunk.js"
+    "static/js/main.60eb5dae.chunk.js"
   ]
 }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import image from '../Assets/profile.png';
+import image from '../Assets/TEDx_logo_side.jpg';
 import { Link } from "react-scroll";
 
 
@@ -11,11 +11,12 @@ class Sidebar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm" id="sideNav">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm" id="sideNav">
                 <div className="navbar-brand js-scroll-trigger">
                     <span className="d-block d-lg-none">{this.sidebarData.firstName} {this.sidebarData.lastName}</span>
                     <span className="d-none d-lg-block">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={image} alt=""/>
+            <img className="img-fluid img-profile mx-auto mb-2" src={image} alt=""/>
+          {/*  TODO make image transparent*/}
           </span>
                 </div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
