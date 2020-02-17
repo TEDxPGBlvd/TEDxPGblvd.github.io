@@ -11,6 +11,8 @@ import {
 } from "react-router-dom";
 import Confirmation from "./Components/Confirmation";
 import './App.css';
+import Schedule from "./Components/Schedule";
+import Contact from "./Components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -47,22 +49,17 @@ class App extends Component {
                         <Tickets/>
                         <hr className="m-0"/>
                         {/*Schedule*/}
-                        {/*<Skills skills={this.state.skills} pluralsight={this.state.landingData.pluralsight}/>*/}
+                        <Schedule/>
                         <hr className="m-0"/>
                         {/*Contact Info*/}
-                        {/*<Projects projects={this.state.projects}/>*/}
+                        <Contact/>
                         <hr className="m-0"/>
                         {/*Sponsors*/}
-                        {/*<Interests interests={this.state.interests}/>*/}
-                        <hr className="m-0"/>
-                        {/*<Awards awards={this.state.awards}/>*/}
                         {/*Footer*/}
                     </div>
                 </div>
             </Route>
-
-
-        </Switch>
+            </Switch>
         </Router>
     );
   }
