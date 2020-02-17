@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0cd8db67a138dd24cb4468ba03e49361",
+    "revision": "4881c46acc093d3cd25b658b41063be7",
     "url": "/index.html"
   },
   {
-    "revision": "66c230a2862459d00a59",
+    "revision": "8a8f038d21b0d33c65fa",
     "url": "/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "275c2b5750a608d07714",
-    "url": "/static/js/2.a790acd6.chunk.js"
+    "revision": "0c77be58a37b6166954c",
+    "url": "/static/js/2.9c378a52.chunk.js"
   },
   {
-    "revision": "66c230a2862459d00a59",
-    "url": "/static/js/main.60eb5dae.chunk.js"
+    "revision": "8a8f038d21b0d33c65fa",
+    "url": "/static/js/main.2577cca5.chunk.js"
   },
   {
     "revision": "2edcc85d0de6a734892e",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TED Youth Logo.f927efa1.jpg"
   },
   {
-    "revision": "88d8c8e28a11860c798bad7486eaafc5",
-    "url": "/static/media/TEDx_logo_side.88d8c8e2.jpg"
+    "revision": "ff703c4ddb0c295aae21285d30c451fb",
+    "url": "/static/media/TEDx_logo_sidebar.ff703c4d.png"
   },
   {
     "revision": "9d80b4b623787cd0f446dc0da1121795",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a7a153fe836bcc3ba3a9c1ea0a6ea8d",
     "url": "/static/media/cpp.8a7a153f.png"
+  },
+  {
+    "revision": "b367b66e8fe43b371a174760b96c5802",
+    "url": "/static/media/doterra-wellness-advocate-white.b367b66e.png"
   },
   {
     "revision": "03ac4396adb887e94873a668b0f3df49",
