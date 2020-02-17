@@ -32,12 +32,11 @@ class Landing extends Component {
                     {/*<br/>*/}
                     <div className=" pl-4 scroll-button">
                         <Link
-                            to="experience"
+                            to="speakers"
                             smooth={true}
                         >
-                            {/*<a href="#experience">*/}
-                            <FontAwesomeIcon icon={faAngleDown}/>
-                            {/*</a>*/}
+                            <a>
+                                <FontAwesomeIcon icon={faAngleDown}/></a>
                         </Link>
                     </div>
                 </div>
