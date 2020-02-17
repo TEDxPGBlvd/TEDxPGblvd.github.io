@@ -34,9 +34,7 @@ class Landing extends Component {
                         <Link
                             to="speakers"
                             smooth={true}
-                        >
-                            <a>
-                                <FontAwesomeIcon icon={faAngleDown}/></a>
+                        ><a><FontAwesomeIcon icon={faAngleDown}/></a>
                         </Link>
                     </div>
                 </div>
