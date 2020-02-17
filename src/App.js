@@ -4,6 +4,7 @@ import Sidebar from "./Components/Sidebar";
 import Landing from "./Components/Landing";
 import Experience from "./Components/Experience";
 import Education from "./Components/Education";
+import Speakers from "./Components/Speakers";
 import Skills from "./Components/Skills";
 import Interests from "./Components/Interests";
 import Awards from "./Components/Awards";
@@ -19,7 +20,8 @@ class App extends Component {
       education : profileData.education,
       skills : profileData.skills,
       interests : profileData.interests,
-      projects : profileData.projects
+      projects : profileData.projects,
+      speakers: profileData.speakers
     }
   }
   render() {
@@ -30,6 +32,7 @@ class App extends Component {
             <Landing landingData={this.state.landingData}/>
             <hr className="m-0"/>
             {/*Speakers*/}
+            <Speakers speakers={this.state.speakers}/>
             <Experience experience={this.state.experience}/>
             <hr className="m-0"/>
             {/*Tickets*/}

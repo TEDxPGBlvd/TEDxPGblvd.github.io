@@ -28,16 +28,16 @@ class Sidebar extends Component {
                             <Link className="nav-link" to="about" smooth={true}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="experience" smooth={true}>Experience</Link>
+                            <Link className="nav-link" to="speakers" smooth={true}>Speakers</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="education" smooth={true}>Education</Link>
+                            <Link className="nav-link" to="education" smooth={true}>Tickets</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="skills" smooth={true}>Skills</Link>
+                            <Link className="nav-link" to="skills" smooth={true}>Schedule</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="projects" smooth={true}>Projects</Link>
+                            <Link className="nav-link" to="projects" smooth={true}>Contact</Link>
                         </li>
                         {/*<li className="nav-item">*/}
                         {/*    <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>*/}
