@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import image from '../Assets/TEDx_logo_side.jpg';
+import image from '../Assets/TEDx_logo_sidebar.png';
 import { Link } from "react-scroll";
 
 
@@ -13,7 +13,7 @@ class Sidebar extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm" id="sideNav">
                 <div className="navbar-brand js-scroll-trigger">
-                    <span className="d-block d-lg-none">{this.sidebarData.firstName} {this.sidebarData.lastName}</span>
+                    <span className="d-block d-lg-none"></span>
                     <span className="d-none d-lg-block">
             <img className="img-fluid img-profile mx-auto mb-2" src={image} alt=""/>
           {/*  TODO make image transparent*/}
