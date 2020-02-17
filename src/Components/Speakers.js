@@ -18,7 +18,7 @@ class Experience extends Component {
                             this.speakers.map((speaker, index) => (
                                 <div className="card mb-3" style={{maxWidth: "90% !important"}}>
                                     <div className="media">
-                                        <img src={profile} height={80} className="mr-3"/>
+                                        <img src={profile} height={80} className="mr-3" alt={speaker.name}/>
                                         <div className="media-body">
                                             <h3 className="speakerTitle">{speaker.title}</h3>
                                             <p className="card-title">{speaker.name}, {speaker.company}</p>
