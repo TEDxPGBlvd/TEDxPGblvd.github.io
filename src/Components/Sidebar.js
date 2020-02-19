@@ -37,7 +37,7 @@ class Sidebar extends Component {
                             <Link className="nav-link" to="skills" smooth={true}>Schedule</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="projects" smooth={true}>Contact</Link>
+                            <Link className="nav-link" to="contact" smooth={true}>Contact</Link>
                         </li>
                     </ul>
                 </div>
