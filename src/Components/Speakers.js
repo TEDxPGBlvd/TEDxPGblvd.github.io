@@ -21,7 +21,7 @@ class Experience extends Component {
                                         <img src={profile} height={80} className="mr-3" alt={speaker.name}/>
                                         <div className="media-body">
                                             <h3 className="speakerTitle">{speaker.title}</h3>
-                                            <p className="card-title">{speaker.name}, {speaker.company}</p>
+                                            <p className="card-title">{speaker.name} — {speaker.company}</p>
                                         </div>
                                     </div>
                                 </div>
