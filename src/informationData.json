@@ -9,37 +9,44 @@
   "speakers": [{
     "name": "Shannon Cannon",
     "company": "Educator at Karl G. Maeser Preparatory Academy",
-    "title": "Classical Education: Revisiting ancient learning"
+    "title": "Classical Education: Revisiting ancient learning",
+    "bio": ""
   },
     {
       "name": "Wesley Hadfield",
       "company": "Student",
-      "title": "Classical Education: Revisiting ancient learning"
+      "title": "The Evolutionary Origin of Mental Illness",
+      "bio": ""
     },
     {
       "name": "Luke Stancil",
       "company": "Student",
-      "title": "Existential OCD: How I've made a strength out of a weakness"
+      "title": "Existential OCD: How I've made a strength out of a weakness",
+      "bio": ""
     },
     {
       "name": "Michael Proper",
       "company": "CEO of ClearUnited",
-      "title": "Digital Privacy: What is to be done?"
+      "title": "Digital Privacy: What is to be done?",
+    "bio": ""
     },
     {
       "name": "Paul Allen",
       "company": "Co-Founder of Ancestry and CEO of soar.com",
-      "title": "The Human Potential: We are all made for greatness"
+      "title": "The Human Potential: We are all made for greatness",
+    "bio": ""
     },
     {
       "name": "Shannon Cannon",
       "company": "Karl G. Maeser Preparatory Academy",
-      "title": "Classical Education: Revisiting ancient learning"
+      "title": "Classical Education: Revisiting ancient learning",
+    "bio": ""
     },
     {
       "name": "Tim Bean",
-      "company": "Fortem Technologies",
-      "title": "Facilitating Safe Urban Air Mobility"
+      "company": "CEO, Fortem Technologies",
+      "title": "Facilitating Safe Urban Air Mobility",
+    "bio": ""
     }],
   "experience": [
     {
