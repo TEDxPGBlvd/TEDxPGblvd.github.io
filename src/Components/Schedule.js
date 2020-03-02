@@ -14,7 +14,12 @@ class Experience extends Component {
                 <div className="w-100">
                     <h2 className="mb-5" style={{color: "white"}}>Schedule</h2>
                     <div className="card pb-5 pt-5 mb-5 pl-5">
-                        <h3>Coming soon...</h3>
+                        <h3>5:45 pm - Registration</h3>
+<h3>6:00 pm - Welcome and Introduction Video</h3>
+<h3>6:10 pm - Talks</h3>
+<h3>7:10 pm - Intermission: Food, Networking, Stretching</h3>
+<h3>7:45 pm - Speakers</h3>
+<h3>8:30 pm - Closing Remarks</h3>
                     </div>
                 </div>
             </section>
