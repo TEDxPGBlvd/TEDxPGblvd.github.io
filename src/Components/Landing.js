@@ -24,7 +24,7 @@ class Landing extends Component {
                         </div>
                     </a>
                     <h4 className="pt-5 pl-4" style={{color: "white"}}>What is TEDx?</h4>
-                    <p className="lead pl-4 mt-3">{this.landingData.tedxplanation}<br/>{this.landingData.tedxplanation2}</p>
+                    <p className="lead pl-4 mt-3">{this.landingData.tedxplanation}<br/>{this.landingData.tedxplanation2}<br/>{this.landingData.tedxplanation3}</p>
                     <br/>
                     <br/>
                     {/*<br/>*/}
