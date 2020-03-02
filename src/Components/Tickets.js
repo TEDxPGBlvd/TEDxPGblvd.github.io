@@ -19,20 +19,20 @@ class Tickets extends Component {
     }
 
     async componentDidMount() {
-        // const db = firebase.firestore();
-        // let querySnapshot = await db.collection("registrants").get();
-        // let size = querySnapshot.size;
-        // console.log(size);
-        // this.setState({
-        //     registrantCount: size
-        // });
-        // console.log(this.state.registrantCount);
-        // this.setState({
-        //     registrantCount: size,
-        // });
+        const db = firebase.firestore();
+        let querySnapshot = await db.collection("registrants").get();
+        let size = querySnapshot.size;
+        console.log(size);
         this.setState({
-            registrantCount: 50,
+            registrantCount: size
         });
+        console.log(this.state.registrantCount);
+        this.setState({
+            registrantCount: size,
+        });
+        // this.setState({
+        //     registrantCount: 50,
+        // });
     }
 
     updateInput = e => {
