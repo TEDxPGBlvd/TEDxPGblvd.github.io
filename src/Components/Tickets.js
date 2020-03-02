@@ -3,7 +3,7 @@ import firebase from "./Firebase/Firebase";
 import {PayPalButton} from "react-paypal-button-v2";
 import {TextField} from "@material-ui/core";
 import uuid from 'react-uuid';
-import Input from "@material-ui/core/Input";
+
 
 class Tickets extends Component {
     constructor(props) {
@@ -12,9 +12,27 @@ class Tickets extends Component {
             email: "",
             firstName: "",
             lastName: "",
-            confirmation: ""
+            confirmation: "",
+            registrantCount: undefined
         };
         this.speakers = props.speakers;
+    }
+
+    async componentDidMount() {
+        // const db = firebase.firestore();
+        // let querySnapshot = await db.collection("registrants").get();
+        // let size = querySnapshot.size;
+        // console.log(size);
+        // this.setState({
+        //     registrantCount: size
+        // });
+        // console.log(this.state.registrantCount);
+        // this.setState({
+        //     registrantCount: size,
+        // });
+        this.setState({
+            registrantCount: 50,
+        });
     }
 
     updateInput = e => {
@@ -24,57 +42,55 @@ class Tickets extends Component {
         console.log(this.state);
     };
 
-    // addRegistrant = e => {
-    //     e.preventDefault();
-    //     e.stopPropagation();
-    //
-    //     const db = firebase.firestore();
-    //     const registrantsRef = db.collection("registrants").add({
-    //         name: this.state.fullname,
-    //         email: this.state.email
-    //     });
-    //     this.setState({
-    //         fullname: "",
-    //         email: ""
-    //     });
-    // };
-
     render() {
 
         let paypalOrConfirmation;
-        if (this.state.confirmation === ""){
+        if (this.state.confirmation === "") {
             paypalOrConfirmation = <PayPalButton
                 amount="15.00"
                 shippingPreference="NO_SHIPPING"
                 onSuccess={(details, data) => {
-                    // alert("Transaction completed by " + details.payer.name.given_name);
                     this.addRegistrant();
                     console.log(details, data);
-                    // return fetch("/paypal-transaction-complete", {
-                    //     method: "post",
-                    //     body: JSON.stringify({
-                    //         orderID: data.orderID
-                    //     })
-                    // })
+
                 }}
                 onError={(error) => {
                     alert("Error completing transaction: " + error);
                 }}
-                // options={{clientId: "PRODUCTION_CLIENT_ID"}}
 
             />;
         } else {
-           paypalOrConfirmation =
-               <div>
+            paypalOrConfirmation =
+                <div>
                     <p className="pl-1">{this.state.confirmation}</p>
-                    <button type = "button" className="btn btn-dark mb-4" onClick={(() => {this.kickstartNewRegistration()})} > Buy Another Ticket </button>
-               </div>;
+                    <button type="button" className="btn btn-dark mb-4" onClick={(() => {
+                        this.kickstartNewRegistration()
+                    })}> Buy Another Ticket
+                    </button>
+                </div>;
         }
 
+
+
+        if(this.state.registrantCount && this.state.registrantCount >= 100){
+            return (
+                <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="schedule">
+                    <div className="w-100">
+                        <h2 className="mb-5" style={{color: "white"}}>Schedule</h2>
+                        <div className="card pb-5 pt-5 mb-5 pl-5">
+                            <h3>SOLD OUT</h3>
+                        </div>
+                    </div>
+                </section>
+            );
+        }
         return (
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="tickets">
                 <div className="w-100">
                     <h2 className="mb-5" style={{color: "white"}}>Tickets</h2>
+                    <div className="card payment pl-4 pr-4 pt-3 mb-2">
+                        <p>{this.state.registrantCount ? 100 - this.state.registrantCount : "Loading # of "} {this.state.registrantCount === 99 ? ' ticket' : " tickets"} left{this.state.registrantCount ? "!" : "..."}</p>
+                    </div>
                     <div className="card payment pl-4 pr-4 pt-2">
                         <TextField
                             id="firstNameTextField"
@@ -106,21 +122,6 @@ class Tickets extends Component {
                     document.getElementById("firstNameTextField").value = "";
                     console.log(this.state.firstName);
                 }}>
-                    {/*<input*/}
-                    {/*    type="text"*/}
-                    {/*    name="fullname"*/}
-                    {/*    placeholder="Name"*/}
-                    {/*    onChange={this.updateInput}*/}
-                    {/*    value={this.state.fullname}*/}
-                    {/*/>*/}
-                    {/*<input*/}
-                    {/*    type="email"*/}
-                    {/*    name="email"*/}
-                    {/*    placeholder="Email"*/}
-                    {/*    onChange={this.updateInput}*/}
-                    {/*    value={this.state.email}*/}
-                    {/*/>*/}
-                    {/*<button type="submit">Submit</button>*/}
                 </form>
 
             </section>
@@ -158,10 +159,10 @@ class Tickets extends Component {
     // }
 
     kickstartNewRegistration() {
-        if(document.getElementById("firstNameTextField") &&
+        if (document.getElementById("firstNameTextField") &&
             document.getElementById("lastNameTextField") &&
             document.getElementById("emailTextField")
-        ){
+        ) {
             document.getElementById("firstNameTextField").value = "";
             document.getElementById("lastNameTextField").value = "";
             document.getElementById("emailTextField").value = "";
