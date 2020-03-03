@@ -4,6 +4,13 @@ import {faAngleDown, faHome} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {Button} from "@material-ui/core";
 
+import cannon from '../Assets/cannon.png';
+import luke from '../Assets/luke.jpg';
+import proper from '../Assets/proper.jpeg';
+import kristine from '../Assets/kristine.png';
+import tim from '../Assets/tim.jpg';
+import wes from '../Assets/wes.jpg';
+
 class Experience extends Component {
     constructor(props) {
         super(props);
@@ -22,7 +29,17 @@ class Experience extends Component {
                                 <div>
                                     <div className="card mb-3" style={{maxWidth: "90% !important"}}>
                                         <div className="card-header media" id={"heading"+index}>
-                                            <img src={profile} height={80} className="mr-3" alt={speaker.name}/>
+                                            <img src={
+                                                speaker.name === "Shannon Cannon" ? cannon :
+                                                    speaker.name === "Luke Stancil" ? luke :
+                                                    speaker.name === "Michael Proper" ? proper :
+                                                    speaker.name === "Kristine Widtfeldt" ? kristine :
+                                                    speaker.name === "Wesley Hadfield" ? wes :
+                                                    speaker.name === "Tim Bean" ? tim :
+                                                profile
+
+
+                                            } height={80} className="mr-3" alt={speaker.name}/>
                                             <div className="media-body">
                                                 <h3 className="speakerTitle">{speaker.title}</h3>
                                                 <p className="card-title">{speaker.name} — {speaker.company}{speaker.bio1 ? <Button data-toggle="collapse" data-target={"#collapse"+index} aria-expanded="false" aria-controls={"collapse"+index} style={{margin: "0 0 0 8px"}}><FontAwesomeIcon icon={faAngleDown} /></Button> : <br/>}</p>
