@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import firebase from "./Firebase/Firebase";
 import {PayPalButton} from "react-paypal-button-v2";
-import {TextField} from "@material-ui/core";
+import {Button, TextField} from "@material-ui/core";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAngleDown} from "@fortawesome/free-solid-svg-icons";
 
 class Experience extends Component {
     constructor(props) {
@@ -18,7 +20,23 @@ class Experience extends Component {
                         <hr/>
                         <h3>6:00 pm - Welcome and Introduction Video</h3>
                         <hr/>
-                        <h3>6:10 pm - Talks</h3>
+                        {/*<div className="talks ml-3 mb-0">*/}
+                            {/*<p className="row">*/}
+                                <h3>6:10 pm - Talks</h3>
+                                {/*<Button data-toggle="collapse" data-target={"#collapseTalks"} aria-expanded="false" aria-controls={"collapseTalks"} style={{margin: "0 0 0 8px"}}>*/}
+                                {/*    <FontAwesomeIcon icon={faAngleDown} />*/}
+                                {/*</Button>*/}
+                            {/*</p>*/}
+                            {/*<div id={"collapseTalks"} className="collapse show" aria-labelledby={"headingTalks"}*/}
+                            {/*     data-parent="#speakers">*/}
+                            {/*    <div className="card-body" style={{color: "black"}}>*/}
+                            {/*        Speaker #1 - Time*/}
+                            {/*        <div><br/></div>*/}
+                            {/*        Speaker #2 - Time*/}
+                            {/*        */}
+                            {/*    </div>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
                         <hr/>
                         <h3>7:10 pm - Intermission: Food, Networking, Stretching</h3>
                         <hr/>
