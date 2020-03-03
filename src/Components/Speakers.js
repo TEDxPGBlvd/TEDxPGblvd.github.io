@@ -31,7 +31,7 @@ class Experience extends Component {
                                         {speaker.bio1 ?
                                             <div id={"collapse"+index} className="collapse show" aria-labelledby={"heading"+index}
                                                  data-parent="#speakers">
-                                                <div className="card-body">
+                                                <div className="card-body" style={{color: "black"}}>
                                                     {speaker.bio1}
                                                     {speaker.bio2 ? <div><br/></div> : null}
                                                     {speaker.bio2}
