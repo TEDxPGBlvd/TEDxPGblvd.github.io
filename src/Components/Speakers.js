@@ -10,6 +10,7 @@ import proper from '../Assets/proper.jpeg';
 import kristine from '../Assets/kristine.png';
 import tim from '../Assets/tim.jpg';
 import wes from '../Assets/wes.jpg';
+import daryl from '../Assets/daryl.jpeg';
 
 class Experience extends Component {
     constructor(props) {
@@ -36,6 +37,7 @@ class Experience extends Component {
                                                     speaker.name === "Kristine Widtfeldt" ? kristine :
                                                     speaker.name === "Wesley Hadfield" ? wes :
                                                     speaker.name === "Tim Bean" ? tim :
+                                                    speaker.name === "Daryl Kemsley" ? daryl :
                                                 profile
 
 

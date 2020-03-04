@@ -7,13 +7,14 @@
     "tedxplanation3": "TEDx organizer Ammon Hasson is a student at Karl G. Maeser Preparatory Academy whose initiative is to bring local ideas to life on the TED stage. At our TEDxYouth@PleasantGroveBlvd event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.",
     "doterraDirections": "https://www.google.com/maps/dir//doterra+pleasant+grove/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x874d9ad0ff5f8be1:0xb0f217f123ab1c0e?sa=X&ved=2ahUKEwipxo64mtnnAhWRhJ4KHd3JAp0Q9RcwE3oECBEQEA"
   },
-  "speakers": [{
-    "name": "Shannon Cannon",
-    "company": "Educator, Karl G. Maeser Preparatory Academy",
-    "title": "Classical Education: Revisiting ancient learning",
-    "bio1": "Shannon Cannon comes from a large family of educators, including her grandmother, both her parents, and four siblings. For her, teaching is a mission rather than a job. Shannon graduated from Brigham Young University with a B.A. in education and has completed graduate work at George Wythe University and Utah Valley University.  Along the way, she educated her own children and hundreds of others in all kinds of settings including public school, home school, co-ops, and charter schools. ",
-    "bio2": "Shannon currently teaches U.S. history and English at Karl G. Maeser Preparatory Academy where she enjoys incorporating the principles of classical, liberal arts education into her classroom. The power of digging into classics to discover and apply principles has become not just a career for her, but a way of life. She believes that the “arts of freedom” are vital if we are to maintain a virtuous and healthy society and world. She and her supportive and comedic husband, Doug, are the parents of nine amazing children."
-  },
+  "speakers": [
+    {
+      "name": "Shannon Cannon",
+      "company": "Educator, Karl G. Maeser Preparatory Academy",
+      "title": "Classical Education: Revisiting ancient learning",
+      "bio1": "Shannon Cannon comes from a large family of educators, including her grandmother, both her parents, and four siblings. For her, teaching is a mission rather than a job. Shannon graduated from Brigham Young University with a B.A. in education and has completed graduate work at George Wythe University and Utah Valley University.  Along the way, she educated her own children and hundreds of others in all kinds of settings including public school, home school, co-ops, and charter schools. ",
+      "bio2": "Shannon currently teaches U.S. history and English at Karl G. Maeser Preparatory Academy where she enjoys incorporating the principles of classical, liberal arts education into her classroom. The power of digging into classics to discover and apply principles has become not just a career for her, but a way of life. She believes that the “arts of freedom” are vital if we are to maintain a virtuous and healthy society and world. She and her supportive and comedic husband, Doug, are the parents of nine amazing children."
+    },
     {
       "name": "Kristine Widtfeldt",
       "company": "CEO, Chalk Couture & Author",
@@ -21,9 +22,9 @@
       "bio1": "Kristine Widtfeldt is an effusive list maker, hopeful runner, and talk-with-her-hands leader. She's currently the CEO of the category-creating DIY decor company, Chalk Couture, headquartered in Draper, Utah. For more than 20 years, she's been a top executive in multiple consumer packaged goods companies, as well as service organizations in coaching, software, and education. ",
       "bio2": "She's ghostwritten more than a dozen books on topics ranging from nutrition to personal finance, she's appeared on the ABC national news show 20/20, and she is a popular keynote speaker. She's passionate about empowerment and goal setting, organization (see comment about list making) as well as cool vocabulary words and grammatical oddities.",
       "bio3": "Some of her past favorite jobs include film critic, magazine editor, on-air broadcast talent, and advertising executive. In short, she still doesn't know what she wants to do when she grows up, but she loves trying it all. Her proudest accomplishment is her part in the \"Widtfeldt 5,\" which is her family made up of her husband Pete and their children Lauren, Connor, and Trey."
-               },
+    },
     {
-    	"name": "Daryl Kemsley",
+      "name": "Daryl Kemsley",
       "title": "Pay it Forward",
       "bio1": "Business strategist, fintech entrepreneur, public speaker, social media personality and CEO – the diverse roles of a multifaceted man.",
       "bio2": "Born in Hong Kong just 24 years ago, Daryl Kemsley started in the business world as his company's nation-wide, number one new sales rep. His next and last job as someone's employee, he was a Mandarin-speaking customer service and sales rep for a leading company. This time he was number one rep company-wide for both new and seasoned reps.",
@@ -41,7 +42,7 @@
     {
       "name": "Luke Stancil",
       "company": "Student, Karl G. Maeser Preparatory Academy",
-      "title": "Existential OCD: How I've made a strength out of a weakness",
+      "title": "The Dangers of Comparative Humility",
       "bio1": "Luke Stancil is a senior at Karl G Maeser Preparatory Academy, where he is a front runner for Valedictorian and a member of student council. A US Presidential Scholar candidate and National Merit Scholar Finalist, Luke has dedicated himself to learn as much as he can, partly because he lives with a subset of obsessive-compulsive disorder called Existential OCD. While at Maeser, Luke has lettered in 4 sports and served as a captain on the state-winning men’s volleyball team. Luke plans to play volleyball at the NCAA Division I level but has not decided on a school yet. One of Luke’s non-academic passions is music.",
       "bio2": "Since the third grade, Luke has played the guitar, writing and singing songs, some of which he thinks are good enough to publish to his YouTube channel. At age 15, Luke was promoted to the position of on-site supervisor for referees after working as a referee for 3 months for Provo Parks and Recreation. At 16, he quit his job and was the youngest hire ever at the Sundance Foundry Grill as a food expeditor. Currently, Luke still works at Sundance, but spends his free time working on an app he plans to release to the public in late 2020. Luke taught himself how to code Swift and Python. Luke plans to major in Economics and a form of engineering in college."
     },
@@ -49,14 +50,18 @@
       "name": "Michael Proper",
       "company": "CEO, ClearUnited",
       "title": "Digital Privacy: What is to be done?",
-    "bio1": "The past 25 years, Michael has started and grown numerous successful companies in the IT sector. Prior to founding ClearCenter (a Hybrid IT Operating Platform), he started DirectPointe (an IT services company, purchased by Hewlett Packard) and DPFS (an IT leasing company) which has funded more than $140 million in IT infrastructure. Infrastructure .",
-    "bio2": "He also helped launch and establish Jive & Calculated Research & Technology. Michael is a creator and knows how to produce results by rounding-up great teams and helping them to focus on simple yet measurable, transparent goals. In addition, Michael has successfully acquired & integrated many great IT companies including iTOK, Center7, STI, System Works, S3, Witsbits, Minebox, Kailo Energy, BH TeleHealth, Daplie.",
-    "bio3": "He is a Husband, Father of six, Entrepreneur, IT Leader, Servant, Wannabe Photographer, IT Pioneer, Kiwi, and grateful to be a Mormon."
+      "bio1": "The past 25 years, Michael has started and grown numerous successful companies in the IT sector. Prior to founding ClearCenter (a Hybrid IT Operating Platform), he started DirectPointe (an IT services company, purchased by Hewlett Packard) and DPFS (an IT leasing company) which has funded more than $140 million in IT infrastructure. Infrastructure .",
+      "bio2": "He also helped launch and establish Jive & Calculated Research & Technology. Michael is a creator and knows how to produce results by rounding-up great teams and helping them to focus on simple yet measurable, transparent goals. In addition, Michael has successfully acquired & integrated many great IT companies including iTOK, Center7, STI, System Works, S3, Witsbits, Minebox, Kailo Energy, BH TeleHealth, Daplie.",
+      "bio3": "He is a Husband, Father of six, Entrepreneur, IT Leader, Servant, Wannabe Photographer, IT Pioneer, Kiwi, and grateful to be a Mormon."
     },
     {
       "name": "Tim Bean",
       "company": "CEO, Fortem Technologies",
       "title": "Facilitating Safe Urban Air Mobility",
-    "bio1": ""
-    }]
+      "bio1": "Tim is the Chief Executive Officer of Fortem Technologies, bringing more than 25 years of global executive experience successfully building businesses and technology startups in Silicon Valley. Tim currently oversees the corporate direction and strategy for Fortem Technologies, responsible for all aspects of sales, product and service creation, delivery and customer service support.",
+      "bio2": "Before founding Fortem Technologies Inc., in May 2016, Tim transitioned from vice president of engineering at his previous company to sales, providing strategic oversight for all programs and services with global reseller partners in Japan and throughout the world. Prior to that, Tim served as VP/General Manager at NextHop, a proprietary technology licensing company from academia that expedited the industry transition from circuit to IP communications. Before NextHop, Tim served as executive vice president of Engineering at Shomiti Systems, where he spearheaded a team that leveraged unique disruptive ASIC technology to build award-winning products for the largest enterprises in the world. Tim was an essential catalyst in growing the team from five founding engineers to more than 110 employees in the fields of engineering, marketing, services and manufacturing.",
+      "bio3": "Tim began his career as an engineer at Aspect Communications, where he was responsible for all software development for their flagship telecommunication products, before becoming the Director of Software and generating over $500M in annual revenue for the product line.",
+      "bio4": "Tim earned his B.S. in Design Engineering, a combination of mechanical engineering and computer science, from BYU. Born and raised in Cleveland, Ohio, Tim is married with kids and is a passionate Cleveland sports fan, where he’s been trying to convert his family to root for his hometown teams for more years than he’s willing to admit."
+    }
+  ]
 }

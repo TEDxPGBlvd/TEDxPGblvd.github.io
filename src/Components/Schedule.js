@@ -1,9 +1,4 @@
 import React, {Component} from 'react';
-import firebase from "./Firebase/Firebase";
-import {PayPalButton} from "react-paypal-button-v2";
-import {Button, TextField} from "@material-ui/core";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleDown} from "@fortawesome/free-solid-svg-icons";
 
 class Experience extends Component {
     constructor(props) {
