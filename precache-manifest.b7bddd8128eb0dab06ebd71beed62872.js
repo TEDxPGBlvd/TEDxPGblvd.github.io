@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f492515834e885b6fef1ec5838ccb953",
+    "revision": "695ec6dfa80034202cc5a065171b63a1",
     "url": "/index.html"
   },
   {
-    "revision": "df314cee78c73325b9b3",
+    "revision": "db37fd7577d0f8f92712",
     "url": "/static/css/main.cf4a8c07.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.149cc0b8.chunk.js"
   },
   {
-    "revision": "df314cee78c73325b9b3",
-    "url": "/static/js/main.c164724e.chunk.js"
+    "revision": "db37fd7577d0f8f92712",
+    "url": "/static/js/main.a846fc0b.chunk.js"
   },
   {
     "revision": "2edcc85d0de6a734892e",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TEDx_logo_sidebar.ff703c4d.png"
   },
   {
-    "revision": "eae62c30544a8ab2328caa548e9b57f8",
-    "url": "/static/media/cannon.eae62c30.png"
+    "revision": "15dd12d36c809945b1ce02bcc3580b00",
+    "url": "/static/media/cannon.15dd12d3.jpg"
   },
   {
     "revision": "1e4d8900971b9d478e1930cccb57a390",
