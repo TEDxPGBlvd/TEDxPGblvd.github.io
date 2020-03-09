@@ -25,7 +25,8 @@ class App extends Component {
       skills : profileData.skills,
       interests : profileData.interests,
       projects : profileData.projects,
-      speakers: profileData.speakers
+      speakers: profileData.speakers,
+      gary: profileData.gary
     }
   }
   render() {
@@ -42,7 +43,7 @@ class App extends Component {
                         <Landing landingData={this.state.landingData}/>
                         <hr className="m-0"/>
                         {/*Speakers*/}
-                        <Speakers speakers={this.state.speakers}/>
+                        <Speakers speakers={this.state.speakers} gary={this.state.gary}/>
                         {/*<Experience experience={this.state.experience}/>*/}
                         <hr className="m-0"/>
                         {/*Tickets*/}
