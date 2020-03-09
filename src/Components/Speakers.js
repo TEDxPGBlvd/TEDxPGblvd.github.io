@@ -4,7 +4,7 @@ import {faAngleDown, faHome} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {Button} from "@material-ui/core";
 
-import cannon from '../Assets/cannon.png';
+import cannon from '../Assets/cannon.jpg';
 import luke from '../Assets/luke.jpg';
 import proper from '../Assets/proper.jpeg';
 import kristine from '../Assets/kristine.png';

@@ -21,6 +21,7 @@ class Contact extends Component {
                     </div>
                     <div style={{alignSelf: 'flex-end'}}>
                         <p className="mb-5" style={{color: "white"}}>This independent TEDx event is operated under license from TED.</p>
+                        <a href="mailto:jaredezzethasson@gmail.com?subject=Website Inquiry&body=Hi, I thought the website for TEDx was great and wondered if you could make me one for _____. It would be great if it could be done by ____. What's your current availability?"><p className="mb-5" style={{color: "white", fontSize: "12px"}}>Need a website for your business or event? Send me an email.</p></a>
 
                     </div>
                 </div>
