@@ -27,18 +27,18 @@ class Sidebar extends Component {
                         <li className="nav-item">
                             <Link className="nav-link" to="about" smooth={true}>About</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="speakers" smooth={true}>Speakers</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="tickets" smooth={true}>Tickets</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="schedule" smooth={true}>Schedule</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="contact" smooth={true}>Contact</Link>
-                        </li>
+                        {/*<li className="nav-item">*/}
+                        {/*    <Link className="nav-link" to="speakers" smooth={true}>Speakers</Link>*/}
+                        {/*</li>*/}
+                        {/*<li className="nav-item">*/}
+                        {/*    <Link className="nav-link" to="tickets" smooth={true}>Tickets</Link>*/}
+                        {/*</li>*/}
+                        {/*<li className="nav-item">*/}
+                        {/*    <Link className="nav-link" to="schedule" smooth={true}>Schedule</Link>*/}
+                        {/*</li>*/}
+                        {/*<li className="nav-item">*/}
+                        {/*    <Link className="nav-link" to="contact" smooth={true}>Contact</Link>*/}
+                        {/*</li>*/}
                     </ul>
                 </div>
             </nav>
