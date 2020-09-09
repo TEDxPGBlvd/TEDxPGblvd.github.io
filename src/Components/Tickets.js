@@ -90,7 +90,7 @@ class Tickets extends Component {
                     <h2 className="mb-5" style={{color: "white"}}>Tickets</h2>
                     <div className="card payment pl-4 pr-4 pt-3 mb-2">
                         <p style={{color: "black"}}>Price: $15.00</p>
-                        <p style={{color: "black"}}>{this.state.registrantCount ? 100 - this.state.registrantCount : "Loading # of "} {this.state.registrantCount === 99 ? ' ticket' : " tickets"} left{this.state.registrantCount ? "!" : "..."}</p>
+                        {/*<p style={{color: "black"}}>{this.state.registrantCount ? 100 - this.state.registrantCount : "Loading # of "} {this.state.registrantCount === 99 ? ' ticket' : " tickets"} left{this.state.registrantCount ? "!" : "..."}</p>*/}
                     </div>
                     <div className="card payment pl-4 pr-4 pt-2">
                         <TextField

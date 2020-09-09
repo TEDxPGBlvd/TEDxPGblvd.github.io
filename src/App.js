@@ -43,20 +43,20 @@ class App extends Component {
                         <Landing landingData={this.state.landingData}/>
                         <hr className="m-0"/>
                         {/*Speakers*/}
-                        {/*<Speakers speakers={this.state.speakers} gary={this.state.gary}/>*/}
-                        {/*/!*<Experience experience={this.state.experience}/>*!/*/}
-                        {/*<hr className="m-0"/>*/}
-                        {/*/!*Tickets*!/*/}
-                        {/*<Tickets/>*/}
-                        {/*<hr className="m-0"/>*/}
-                        {/*/!*Schedule*!/*/}
-                        {/*<Schedule/>*/}
-                        {/*<hr className="m-0"/>*/}
-                        {/*/!*Contact Info*!/*/}
-                        {/*<Contact/>*/}
-                        {/*<hr className="m-0"/>*/}
-                        {/*Sponsors*/}
-                        {/*Footer*/}
+                        <Speakers speakers={this.state.speakers} gary={this.state.gary}/>
+                        {/*<Experience experience={this.state.experience}/>*/}
+                        <hr className="m-0"/>
+                        {/*Tickets*/}
+                        <Tickets/>
+                        <hr className="m-0"/>
+                        {/*Schedule*/}
+                        <Schedule/>
+                        <hr className="m-0"/>
+                        {/*Contact Info*/}
+                        <Contact/>
+                        <hr className="m-0"/>
+                        Sponsors
+                        Footer
                     </div>
                 </div>
             </Route>

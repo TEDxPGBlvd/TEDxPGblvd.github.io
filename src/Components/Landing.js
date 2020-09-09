@@ -31,14 +31,14 @@ class Landing extends Component {
                     <br/>
                     <h3 className="pt-5 pl-4" style={{color: "white"}}>This TEDx event has been cancelled due to the COVID-19 outbreak.</h3>
 
-                    {/*<br/>*/}
-                    {/*<div className=" pl-4 scroll-button">*/}
-                    {/*    <Link*/}
-                    {/*        to="speakers"*/}
-                    {/*        smooth={true}*/}
-                    {/*    ><a><FontAwesomeIcon icon={faAngleDown}/></a>*/}
-                    {/*    </Link>*/}
-                    {/*</div>*/}
+                    <br/>
+                    <div className=" pl-4 scroll-button">
+                        <Link
+                            to="speakers"
+                            smooth={true}
+                        ><a><FontAwesomeIcon icon={faAngleDown}/></a>
+                        </Link>
+                    </div>
                 </div>
             </section>
         );
